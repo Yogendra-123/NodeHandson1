@@ -26,5 +26,5 @@ const server = http.createServer((req, res)=>{
 
 
 server.listen(port, ()=>{
-    console.log('App is running')
+    console.log('App is running on port', `${port}`)
 })
